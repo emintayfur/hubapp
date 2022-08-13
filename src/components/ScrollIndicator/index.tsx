@@ -1,8 +1,8 @@
-import styles from '../../styles/ScrollIndicator.module.css'
+import styles from '../../styles/component/ScrollIndicator.module.css'
 import React, {useCallback} from 'react';
 import {motion, useScroll, useTransform} from 'framer-motion';
 
-const ScrollIndicator = (props: any) => {
+const ScrollIndicator = () => {
     const { scrollYProgress } = useScroll()
 
     const top = useTransform(

@@ -1,13 +1,13 @@
 import type {NextPage} from 'next';
-import Footer from "../containers/Footer";
-import DownloadSection from "../containers/DownloadSection";
-import Button from "../components/Button";
-import FirstSection from "../containers/FirstSection";
-import PricingTabs from "../containers/PricingTabs";
-import Connect from "../containers/Connect";
-import ScrollIndicator from "../components/ScrollIndicator";
-import Features from "../containers/Features";
-import ParallaxText from "../containers/ParallaxText";
+import Footer from "../src/containers/Footer";
+import DownloadSection from "../src/containers/DownloadSection";
+import Button from "../src/components/Button";
+import FirstSection from "../src/containers/FirstSection";
+import PricingTabs from "../src/containers/PricingTabs";
+import Connect from "../src/containers/Connect";
+import ScrollIndicator from "../src/components/ScrollIndicator";
+import Features from "../src/containers/Features";
+import ParallaxText from "../src/containers/ParallaxText";
 import Head from "next/head";
 
 const Home: NextPage = () => {

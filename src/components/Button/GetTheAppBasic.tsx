@@ -1,4 +1,4 @@
-import styles from '../../styles/Button.Basic.module.css';
+import styles from '../../styles/component/Button.Basic.module.css';
 import React from 'react';
 
 const GetTheAppBasic = () => {

@@ -1,4 +1,4 @@
-import styles from '../../styles/Button.SeeHowItWorks.module.css';
+import styles from '../../styles/component/Button.SeeHowItWorks.module.css';
 import React, {useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";

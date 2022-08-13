@@ -1,4 +1,4 @@
-import styles from '../../styles/AppContainer.module.css';
+import styles from '../../styles/container/AppContainer.module.css';
 import React from 'react';
 import type {IAppContainerMediumProps} from "./types";
 

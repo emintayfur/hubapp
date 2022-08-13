@@ -1,4 +1,4 @@
-import styles from '../../styles/Header.module.css';
+import styles from '../../styles/container/Header.module.css';
 import React, {useEffect, useMemo, useRef, useState} from 'react';
 import HupAppLogo from '../../assets/svg/HubAppLogo.svg';
 import Button from "../../components/Button";

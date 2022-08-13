@@ -1,4 +1,4 @@
-import styles from '../../styles/ParallaxText.module.css'
+import styles from '../../styles/container/ParallaxText.module.css'
 import React from 'react';
 import AppContainer from "../AppContainer";
 import {useParallax} from "react-scroll-parallax";
@@ -25,7 +25,7 @@ const ParallaxText = (props: IParallaxTextProps) => {
         easing: containerEasing || [0.2, 0.6, 1, 0.5],
     })
 
-    const { ref: textRef, element} = useParallax<HTMLHeadingElement>({
+    const { ref: textRef } = useParallax<HTMLHeadingElement>({
         opacity: [1, 0],
         easing: opacityEasing || [0.2, 0.6, 1, 0.5],
     })

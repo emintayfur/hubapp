@@ -1,4 +1,4 @@
-import styles from '../../styles/DownloadSection.module.css'
+import styles from '../../styles/container/DownloadSection.module.css'
 import React from 'react';
 import Image from "next/image";
 import AppContainer from "../AppContainer";

@@ -1,4 +1,4 @@
-import styles from '../../styles/PricingTabs.module.css';
+import styles from '../../styles/container/PricingTabs.module.css';
 import React, {useState} from 'react';
 import AppContainer from "../AppContainer";
 import {combineClassNames} from "../../utils/className";

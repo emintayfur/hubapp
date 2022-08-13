@@ -1,4 +1,4 @@
-import styles from '../../styles/Button.Advanced.module.css';
+import styles from '../../styles/component/Button.Advanced.module.css';
 import React from 'react';
 import Link from "next/link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

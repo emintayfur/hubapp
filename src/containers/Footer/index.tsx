@@ -1,4 +1,4 @@
-import styles from '../../styles/Footer.module.css';
+import styles from '../../styles/container/Footer.module.css';
 import React from 'react';
 import AppContainer from "../AppContainer";
 import {combineClassNames} from "../../utils/className";

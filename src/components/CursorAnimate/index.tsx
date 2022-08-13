@@ -1,4 +1,4 @@
-import styles from '../../styles/CursorAnimate.module.css'
+import styles from '../../styles/component/CursorAnimate.module.css'
 import React, {useEffect, useRef, useState} from 'react';
 import {motion, useMotionValue, useTransform} from 'framer-motion';
 
@@ -48,9 +48,7 @@ const CursorAnimate = (props: any) => {
                 x.set((e.nativeEvent as any).layerX)
                 y.set((e.nativeEvent as any).layerY)
             }}
-            onMouseLeave={(e) => {
-                setIsIn(false)
-            }}
+            onMouseLeave={() => setIsIn(false)}
             onMouseEnter={() => setIsIn(true)}
             ref={containerRef}
             style={{

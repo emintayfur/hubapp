@@ -1,4 +1,4 @@
-import styles from '../../styles/FirstSection.module.css';
+import styles from '../../styles/container/FirstSection.module.css';
 import React from 'react';
 import Image from "next/image";
 import {motion} from 'framer-motion';

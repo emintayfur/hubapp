@@ -1,4 +1,4 @@
-import styles from '../../styles/AppParticles.module.css';
+import styles from '../../styles/container/AppParticles.module.css';
 import React from 'react';
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles"

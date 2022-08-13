@@ -1,4 +1,4 @@
-import styles from '../../styles/Features.module.css';
+import styles from '../../styles/container/Features.module.css';
 import React from 'react';
 import AppContainer from "../AppContainer";
 import {useParallax} from "react-scroll-parallax";

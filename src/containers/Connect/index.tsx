@@ -1,4 +1,4 @@
-import styles from '../../styles/Connect.module.css';
+import styles from '../../styles/container/Connect.module.css';
 import React, {useCallback, useState} from 'react';
 import {AnimatePresence, motion} from 'framer-motion';
 import Image from "next/image";
