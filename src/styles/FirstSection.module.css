@@ -1,0 +1,55 @@
+.container {
+    @apply relative w-full min-h-screen;
+}
+
+.sub {
+    @apply w-full flex md:justify-between flex-wrap-reverse pt-[18%] relative z-20;
+}
+
+.left {
+    @apply block w-full md:w-[58.33333333%] text-white;
+}
+
+.content {
+    @apply flex flex-col gap-4;
+}
+
+.heading {
+    @apply flex gap-1 text-white text-opacity-75;
+}
+.heading p {
+    @apply text-[13px];
+}
+
+.content h1 {
+    @apply font-grotesk font-bold text-5xl lg:text-[86px] leading-none mb-2;
+}
+
+.content > p {
+    @apply text-[20px] text-op-white-47 leading-normal;
+}
+
+.action {
+    @apply flex w-full pt-8 gap-6 items-center flex-wrap lg:flex-nowrap;
+}
+
+.btnContainer {
+    @apply flex justify-center md:justify-start w-full lg:w-[38.66666667%];
+}
+
+.action p {
+    @apply w-full md:w-6/12 text-center md:text-start leading-none text-white text-op-white-47 text-[13px];
+}
+
+/***/
+.right {
+    @apply flex justify-center items-center relative w-full md:w-[41.66666667%] pb-14 md:pb-0;
+}
+
+.right .circle {
+    @apply absolute -top-[20%] z-30;
+}
+
+.right .main {
+    @apply relative -mb-[10%] z-40 pb-[10%];
+}

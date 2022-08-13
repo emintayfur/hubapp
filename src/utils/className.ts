@@ -1,0 +1,1 @@
+export const combineClassNames = (...classNames: (string | undefined | false)[]) => classNames.filter((className) => className).join(' ');

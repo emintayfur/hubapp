@@ -1,0 +1,20 @@
+.container {
+    @apply fixed hidden 2lgu:flex flex-col justify-center items-center h-screen top-0 bottom-0 right-8 z-50 text-white;
+}
+
+.sub {
+    @apply flex flex-col gap-5 justify-center items-center cursor-pointer;
+}
+
+.text {
+    @apply transform -rotate-90 text-[13px];
+    writing-mode: horizontal-tb;
+}
+
+.indicatorContainer {
+    @apply flex w-[1px] justify-center items-center h-[60px] bg-op-white-7 relative rounded-full;
+}
+
+.indicator {
+    @apply absolute w-2 h-2 rounded-full bg-white;
+}

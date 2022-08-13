@@ -1,0 +1,13 @@
+.container {
+    @apply text-white uppercase font-bold tracking-wider rounded-full transform;
+    @apply transition-transform duration-300 ease-out hover:-translate-y-[2px] hover:bg-primary;
+}
+
+.container span {
+    @apply block px-5 py-2 text-[13px] bg-default-500 rounded-full;
+    @apply transition-all duration-200;
+}
+
+.container:hover span {
+    @apply bg-primary;
+}

@@ -1,0 +1,69 @@
+.container {}
+
+.sub {
+    @apply flex flex-col pt-6 pb-4 bg-dark-550 rounded-md w-full justify-center items-center;
+}
+
+.nav {
+    @apply w-full flex 2mdu:w-[70%] items-stretch border-b-[2px] border-b-op-white-25 mb-8;
+}
+
+.nav li {
+    @apply relative w-full text-op-white-25;
+    @apply transition-all ease-out duration-300;
+}
+.nav li.active,
+.nav li:hover {
+    @apply text-white;
+}
+
+.nav li:after {
+    @apply absolute -bottom-[2px] left-0 right-0 content-[''] block w-full h-[2px] transform scale-0 bg-primary;
+    @apply transition-all ease-out duration-300;
+}
+.nav li.active:after,
+.nav li:hover:after {
+    @apply transform scale-100;
+}
+
+.nav li button {
+    @apply px-8 py-6 font-grotesk w-full text-center;
+}
+
+.nav li button span {
+    @apply text-[16px]
+}
+
+/***/
+.content {
+    @apply flex flex-wrap justify-center items-center text-white pt-10 gap-8 lg:gap-[8.3%];
+}
+
+.textSection {
+    @apply flex flex-col gap-6 w-full 2md:w-[50%] 2lgu:w-[41.66666667%];
+}
+
+.heading {
+    @apply flex flex-col gap-5;
+}
+.heading h4 {
+    @apply font-medium text-[14px] font-grotesk;
+}
+.heading h1 {
+    @apply font-bold text-[61px] leading-none font-grotesk;
+}
+
+.description {
+    @apply text-op-white-47;
+}
+.description p {
+    @apply text-[22px];
+}
+
+.action {
+    @apply mt-4;
+}
+
+.imageSection {
+    @apply w-[83.33333333%] lg:w-[66.66666667%] 2md:w-[33.33333333%] 2lgu:w-[25%];
+}

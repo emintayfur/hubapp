@@ -1,0 +1,49 @@
+.container {
+    @apply flex relative w-full pt-16 pb-9 -mx-[15px];
+}
+
+.bg {
+    @apply flex absolute top-0 left-0 z-20 w-full h-full overflow-hidden bg-cover bg-no-repeat;
+    background-position: center top;
+}
+
+.sub {
+    @apply flex flex-wrap relative z-30 items-center 2mdu:gap-[8.33333333%];
+}
+
+.left {
+    @apply flex flex-col gap-5 px-4 w-full 2md:w-[50%] 2mdu:w-[41.66666667%]
+}
+
+.content {
+    @apply flex flex-col gap-2;
+}
+
+.content h2,
+.content h2 span {
+    @apply font-grotesk text-white text-[38px] md:text-[61px] leading-none;
+}
+
+.content p {
+    @apply text-[20px] md:text-[20px] text-op-white-47;
+}
+
+.actions {
+    @apply flex flex-wrap mt-2 -mx-[15px];
+}
+
+.actions .getApp {
+    @apply w-full 2mdu:w-6/12 px-4 mb-4 2mdu:mb-0;
+}
+
+.actions .actionContext {
+    @apply flex flex-col justify-center w-full 2mdu:w-6/12 px-4 text-op-white-47;
+}
+.actions .actionContext p {
+    @apply text-[13px];
+}
+
+/***/
+.right {
+    @apply w-full md:w-[66.66666667%] 2mdu:w-[41.66666667%];
+}

@@ -1,0 +1,12 @@
+.container {
+    @apply py-16 first:mt-8;
+}
+
+.container h2,
+.container h2 span {
+    @apply font-grotesk font-bold text-default-400 text-[52px];
+}
+
+.container h2 span {
+    @apply text-white;
+}

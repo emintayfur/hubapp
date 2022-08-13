@@ -1,0 +1,45 @@
+.container {
+    @apply absolute top-0 left-0 flex justify-between items-center w-full px-12 bg-transparent z-50;
+}
+
+.logo {
+    @apply py-8;
+}
+
+.promotion {
+    @apply text-white hidden 2lgu:block;
+}
+
+.promotion p {
+    @apply text-[12px];
+}
+
+.promotion p span {
+    @apply text-[18px];
+}
+
+.actions {
+    @apply h-full hidden 2lgu:flex items-center gap-6;
+}
+
+.actions .login {
+    @apply font-medium text-white transition-all duration-300 ease-out hover:text-opacity-70;
+}
+
+.actions .login span {
+    @apply text-[14px];
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-110%)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+.lock {
+    @apply fixed;
+    animation: slideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}

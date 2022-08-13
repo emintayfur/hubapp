@@ -1,0 +1,44 @@
+.container {
+    @apply text-white pt-14 pb-16;
+}
+
+.sub {
+    @apply flex flex-col w-full justify-center items-center text-center;
+}
+
+.head {
+    @apply flex flex-col w-full 2lgu:w-[50%] 2md:w-[66.66666667%] gap-4 pb-14;
+}
+
+.head h1 {
+    @apply text-[62px] font-grotesk font-bold leading-none;
+}
+.head p {
+    @apply text-op-white-47 text-[20px];
+}
+
+.features {
+    @apply w-full flex flex-wrap pt-4 text-start -mx-[5px];
+}
+
+.featureParent {
+    @apply w-full md:w-6/12 2mdu:w-[33.33333333%] p-[5px];
+}
+
+.feature {
+    @apply flex flex-col w-full px-11 pt-14 pb-11 bg-dark-400 gap-3;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.feature h4 {
+    @apply font-bold font-grotesk text-white text-[18px] pt-4;
+}
+
+.feature p {
+    @apply text-op-white-47 text-[15px];
+}
+

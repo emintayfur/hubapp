@@ -1,0 +1,112 @@
+.container {
+    @apply w-full bg-dark-500 text-default-450;
+}
+
+/***/
+.footerTop {
+    @apply flex flex-col w-full py-10 justify-center items-center gap-16;
+}
+
+.footerCarousel {
+    @apply w-full box-border overflow-x-hidden mb-8;
+}
+
+.footerTop h4 {
+    @apply text-[14px] text-white;
+}
+
+/***/
+.parentGrid {
+    @apply flex flex-col 2mdu:grid 2mdu:grid-cols-4 -mx-3.5 gap-8;
+}
+
+.parentSection {
+    @apply px-3.5 pt-10 pb-9 border-t border-t-op-white-7;
+}
+.parentSection.w_4_2 {
+    @apply col-span-2;
+}
+.parentSection.w_4_1 {
+    @apply col-span-1;
+}
+
+/***/
+.navGroup {
+    @apply flex flex-col gap-6;
+}
+
+.navGroup > h3 {
+    @apply font-grotesk font-normal text-xs uppercase tracking-widest;
+}
+
+/***/
+.navGroup > ul {
+    @apply flex flex-col gap-1.5;
+}
+.navGroup > ul > li {
+    @apply transition-all ease-in duration-300 text-default-50 hover:text-white;
+}
+
+/***/
+.navGroup .navContent p {
+    @apply text-white text-lg;
+}
+
+/***/
+.navGroup .socialLinks {
+    @apply flex gap-8;
+}
+
+.navGroup .socialLinks li {
+    @apply transition-all ease-in duration-300 text-default-50 hover:text-white;
+}
+
+.navGroup .socialLinks svg {
+    @apply w-[28px] h-[28px];
+}
+
+/***/
+.navGroup .newsletter {
+    @apply flex h-[60px] rounded overflow-hidden w-full;
+}
+.navGroup .newsletter > input[type="email"] {
+    @apply px-6 bg-dark-700 outline-none placeholder-default-100 text-white rounded flex-1 w-full 2mdu:w-[100px];
+}
+.navGroup .newsletter > button {
+    @apply flex justify-center bg-dark-350 items-center w-[60px] text-white font-semibold uppercase rounded;
+}
+.navGroup .newsletter > button span {
+    @apply text-[13px];
+}
+
+/***/
+.grid3 {
+    @apply grid grid-cols-3 gap-8;
+}
+
+.row2 {
+    @apply flex flex-col items-start gap-8;
+}
+
+.logo {
+    @apply text-white col-span-3 mb-9 2mdu:col-span-1 2mdu:mb-0;
+}
+
+
+.footerBottom {
+    @apply flex w-full justify-between items-center pb-9 pt-11 border-t border-t-op-white-7;
+}
+
+.footerBottom div span {
+    @apply text-[14px];
+}
+
+.footerBottom ul {
+    @apply flex gap-6 ;
+}
+.footerBottom ul li {
+    @apply text-default-50 transition-all ease-in duration-300 hover:text-white;
+}
+.footerBottom ul li a span {
+    @apply text-[12px];
+}

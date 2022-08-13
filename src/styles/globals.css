@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #171717;
+    }
+
+    * {
+        @apply box-border font-neue text-default;
+    }
+}

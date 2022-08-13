@@ -1,0 +1,11 @@
+.parent {
+    @apply flex items-center justify-center w-full box-border;
+}
+
+.medium {
+    @apply box-border mx-auto px-3.5 w-full xl:w-1250 2lg:w-1170 2md:w-970 md:w-750;
+}
+
+.large {
+    @apply box-border mx-auto px-3.5 w-full 2lg:w-10/12 xl:w-[80vw];
+}
